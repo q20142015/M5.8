@@ -23,7 +23,7 @@ public class Main {
 
         Elevator elevator = new Elevator(-3, 26);
         while (true) {
-            System.out.println("Vvedite nomer eteza: ");
+            System.out.println("Vvedite nomer etaza: ");
             int floor = new Scanner(System.in).nextInt();
             elevator.move(floor);
         }
